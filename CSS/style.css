@@ -8,6 +8,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Lobster";
     font-size: 40pt;
+    text-align:center;
+}
+h1 {
+    font-size: 40pt;
 }
 header {
     text-align: center;
@@ -21,11 +25,16 @@ header {
     padding: 10px;
 }
 
+#
 #hero img {
     width: 300px;
 }
 #bio {
-    text-align: right;
-
+    text-align: center;
     
+    #hobbies ul li:nth-child(even) {
+        color: azure;
+
+
+    }
 }
