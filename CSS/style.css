@@ -25,16 +25,27 @@ header {
     padding: 10px;
 }
 
-#
+
 #hero img {
     width: 300px;
 }
+
 #bio {
     text-align: center;
     
     #hobbies ul li:nth-child(even) {
         color: azure;
+    }
 
+#gallery {
+        border: 2px solid #4338D9;
+    }
 
+ #gallery img {
+        max-width: 40%;
+    }
+
+#gallery figure {
+        text-align: center;
     }
 }
