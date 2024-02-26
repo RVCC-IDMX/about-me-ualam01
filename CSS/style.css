@@ -1,6 +1,6 @@
 body {
     font-family: Titillium Web;
-    background-color: #D9AC38;
+    background-color: #A08AB3;
     color: #4338D9; 
 }
 
@@ -19,7 +19,7 @@ header {
 
 #hero,footer {
     color: #D9D338;
-    border: 2px solid #4338D9;
+    border: 2px solid #4F415C;
     background-color: #454459;
     text-align: center;
     padding: 10px;
@@ -32,20 +32,45 @@ header {
 
 #bio {
     text-align: center;
+
+}
     
     #hobbies ul li:nth-child(even) {
         color: azure;
     }
+}
 
 #gallery {
-        border: 2px solid #4338D9;
+        border: 2px solid #4F415C;
     }
 
  #gallery img {
-        max-width: 40%;
+        max-width: 35%;
     }
 
 #gallery figure {
-        text-align: center;
+        text-align: right;
+    }
+
+    #lit {
+        border: 2px solid #454459;
+        margin-bottom: 2rem;
+
+    }
+
+    #lit div {
+        padding:2rem;
+        max-width: 40rem;
+        margin: 0 auto;
+    }
+
+    #lit div p:first-letter {
+        color: white;
+        float: left;
+        font-size:3rem;
+        
+        
+
+
     }
 }
