@@ -13,6 +13,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: 40pt;
 }
+h2 {
+    margin: 0.1em;
+}
 header {
     text-align: center;
 }
@@ -34,7 +37,11 @@ header {
     text-align: center;
 
 }
-    
+section#hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     #hobbies ul li:nth-child(even) {
         color: azure;
     }
@@ -73,4 +80,17 @@ header {
 
 
     }
-}
+@media screen and (min-width: 60em) {
+    figure {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    figcaption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+    
+} 
