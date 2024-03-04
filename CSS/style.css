@@ -80,6 +80,8 @@ section#hobbies {
 
 
     }
+    /* tablet size */
+
 @media screen and (min-width: 60em) {
     figure {
         display: grid;
@@ -92,5 +94,33 @@ section#hobbies {
         align-items: center;
         font-size: 2rem;
     }
-    
+
+    figure img{
+        width: 100%;
+    }
+
+    #lit div{
+        max-width: 100%;
+        columns: 20rem;
+    }
+
+    /* large screen size */
+
+    @media screen and (min-width: 100em) {
+        #gallery {
+            display: grid;
+            grid-template-columns: 1 fr 1fr 1fr;
+        }
+        
+    }
+
+    hr {
+        display: none;
+
+    }
+
+    #gallery h2 {
+        grid-column: 1/-1;
+    }
+
 } 
