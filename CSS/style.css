@@ -56,7 +56,7 @@ section#hobbies {
     }
 
 #gallery figure {
-        text-align: right;
+        text-align: center;
     }
 
     #lit {
@@ -124,3 +124,9 @@ section#hobbies {
     }
 
 } 
+
+/* Contact Form */
+
+#formElements {
+    display:grid;
+}
